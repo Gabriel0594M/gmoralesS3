@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="gmoralesS3.Views.vLogin"
              Title="vLogin">
+
     
     <!--estilo explicito-->
     <ContentPage.Resources>
@@ -21,6 +22,7 @@
     </ContentPage.Resources>
     
     
+
     <VerticalStackLayout
         Margin="20"
         Padding="30"
@@ -51,7 +53,10 @@
             </Grid.ColumnDefinitions>
             
             <Label Text="USUARIO"
+
                    Style="{StaticResource EstiloLabel}"
+
+
                    
                    Grid.Row="0"
                    Grid.Column="0"/>
@@ -63,7 +68,10 @@
                 Grid.Column="1"/>
 
             <Label Text="CONTRASEÑA"
+
                 Style="{StaticResource EstiloLabel}"
+
+       
                 Grid.Row="1"
                 Grid.Column="0"/>
 
@@ -75,19 +83,20 @@
                 Grid.Column="1"/>
 
             <Button x:Name="btnIniciarSesion"
+
                     Style="{StaticResource EstiloButton}"
+
                     Text="Iniciar Sesión"
                     Clicked="btnIniciarSesion_Clicked"
                     Grid.Row="2"
                     Grid.Column="0"/>
 
             <Button x:Name="btnRegistrar"
-                     Style="{StaticResource GlobalBotones}"
-                 Text="Registar Usuario"
-                 Clicked="btnRegistrar_Clicked"
-                 Grid.Row="2"
-                 Grid.Column="1"/>  
-
+                    Style="{StaticResource GlobalBotones}"
+                    Text="Registrar Usuario"
+                    Clicked="btnRegistrar_Clicked"
+                    Grid.Row="2"
+                    Grid.Column="1"/>
 
         </Grid>
 
