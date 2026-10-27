@@ -26,6 +26,6 @@ public partial class vRegistro : ContentPage
 
 
 		}
-
+		      
     }
 }
